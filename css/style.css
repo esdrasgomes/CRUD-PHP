@@ -1,0 +1,382 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+html,body {
+	height: 100%;
+	background-color: rgb(220,220,220);
+}
+body {
+	overflow-x: hidden;
+}
+
+/*Pagina de login */
+.box-login {
+	max-width: 600px;
+	width: 95%;
+	padding: 60px 4%;
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	box-shadow: 5px 5px 10px #888888;
+}
+.box-login h2 {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 10px 0;
+	color: black;
+}
+.box-login input[type=text],
+.box-login input[type=password] {
+	width: 100%;
+	height: 40px;
+	background-color: #fbf7c0;
+	border: 1px solid #ccc;
+	padding-left: 8px;
+	margin-top: 8px;	
+}
+.box-login input[type=submit]{
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 14px;
+	background-color: #00bfa5;
+	color: white;
+	border: 0;
+}
+
+/* Box erro do painel */
+
+.erro-box {
+	width: 100%;
+	padding: 6px 2%;
+	text-align: center;
+	background-color: #F75353;
+	color: white;
+	font-size: 16px;
+}
+
+/* Fim pagina de login */
+
+/* Painel de controle */
+
+.clear {
+	clear: both;
+}
+.center {
+	padding: 0 2%;
+	margin:0 auto;
+}
+
+header {
+	position: relative;
+	left: 280px;
+	width: calc(100% - 280px);
+	padding: 5px 0;
+	background-color: #78909c;
+}
+.loggout {
+	float: right;
+}
+.loggout a {
+	padding: 0 20px;
+	position: relative;
+	top: 4px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.loggout a > span {
+	font-size: 16px;
+	text-decoration: none;
+}
+.menu-btn {
+	float: left;
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+}
+.menu-wraper {
+	width: 280px;
+}
+div.menu {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	padding: 10px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color:#455a64;
+	float: left;
+	width: 280px;
+}
+div.box-usuario {
+	text-align: center;
+}
+.avatar-usuario {
+	text-align: left;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	border:3px solid #2F3D42;
+}
+.imagem-usuario {
+	position: relative;
+	display: inline-block;
+	border:2px solid #2F3D42;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+}
+.imagem-usuario img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	border-radius: 50%;
+	;
+}
+.avatar-usuario i {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	font-size: 40px;
+	color: #2F3D42;
+}
+.nome-usuario {
+	margin-top: 2px;
+	text-align: center;
+}
+.nome-usuario h6 {
+	color:white;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.nome-usuario p {
+	color: white;
+	font-size: 15px;
+}
+
+/* Conteúdo principal do painel */
+
+.w100 {
+	width: 100%;
+}
+.w50 {
+	width: 49%;
+	background-color: white;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.content {
+	width: calc(100% - 280px);
+	position: relative;
+	left: 280px;
+	padding: 10px;
+}
+
+.box-content {
+	background-color: white;
+	padding: 18px;
+	margin-bottom: 15px;
+
+}
+.container {
+	margin-bottom: 20px;
+}
+
+/* Box Metricas */
+.box-content h2 {
+	font-size: 20px
+}
+
+.box-metricas {
+	margin-top: 8px;
+	padding: 0 15px;
+}
+.box-metrica-single {
+	float: left;
+	position: relative;
+	width: 33.3%;
+	background-color: #F4B03E;
+	border: 5px solid white;
+}
+.box-metricas .box-metrica-single:nth-of-type(2){
+	background-color: #ef5350;
+}
+.box-metricas .box-metrica-single:nth-of-type(3){
+	background-color: #04A65A
+}
+.box-metrica-wraper {
+	padding: 05px 20px;
+	text-align: left;
+	color: white;
+}
+.box-metrica-wraper p {
+	padding: 8px 0;
+	font-size: 20px;
+}
+
+.itens-menu {
+	margin-top: 15px;
+}
+.itens-menu h2 {
+	text-align: left;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: #2F3D42;
+	color: white;
+	padding: 5px 10px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+.itens-menu a {
+	display: block;
+	font-weight: 300;
+	padding: 4px 10px;
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid #2F3D42;
+	font-weight: 400;
+}
+
+/* Tabela Responsiva */
+
+.table-responsive {
+	max-width: 1280px;
+	margin: 10px auto;
+}
+
+.table-responsive .row:nth-of-type(1){ /* Pegando o primeiro "row" da tabela */
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	background-color: #4db6ac;
+	padding-left: 5px;
+	color: white;
+}
+
+.table-responsive .row {
+	color: #555;
+	padding: 3px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.col {
+	float: left;
+	width: 50%;
+}
+
+.box-content form {
+	margin: 20px 0;
+}
+.box-content form label {
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	display: block;
+}
+.box-content form input[type=text],
+.box-content form input[type=password] {
+	margin-top: 4px;
+	width: 100%;
+	height: 40px;
+	padding-left: 8px;
+}
+.box-content .form-group {
+	margin: 15px 0;
+}
+.box-content form input[type=file] {
+	margin-top: 4px;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #aaa;
+}
+.box-content form input[type=submit] {
+	width: 100px;
+	height: 35px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 15px;
+	background-color: #00bfa5;
+	color: white;
+	border: 0;
+}
+
+/* Box de alerta */
+.box-alert{
+	width: 100%;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.sucesso {
+	background-color: #00c853;
+}
+.erro {
+	background-color: #F75353;
+}
+
+
+/* Aplicando as propriedades para deixar o site responsivo */
+@media screen and (max-width: 1024px) {
+	.box-metrica-single {
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.box-metrica-single {
+	width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+	.content {
+		width: 100%;
+		left:0;
+	}
+	header {
+		width: 100%;
+		left: 0;
+	}
+}
+@media screen and (max-width: 500px) {
+
+	.box-single-metrica {
+		width: 100%;
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+
+	.menu-wraper {
+		width: 240px;
+	}
+}
