@@ -47,7 +47,7 @@
 					<a href="listar_fornecedor.php">Listar Fornecedores</a>
 					<h2>Categorias</h2>
 					<a href="cadastrar_categoria.php">Cadastrar Categorias</a>
-					<a href="listar_categoria.php">Editar Categorias</a>
+					<a href="listar_categoria.php">Listar Categorias</a>
 					<h2>Dados do Estoque</h2>
 					<a href="">Valor do estoque</a>
 					<a href="">Relatórios</a>
@@ -87,10 +87,8 @@
 			    </div>
 			  </div>
 
-				
-
-			  <div class="col-sm-6">
-			    <div class="card">
+			  <div class="col-sm-6" style="">
+			    <div class="card" style="">
 			      <div class="card-body">
 			        <h4 class="card-title">Produtos Cadastrados</h4>
 			        <p class="card-text">Visualizar, editar e excluir produtos cadastrados.</p>
@@ -98,7 +96,7 @@
 			      </div>
 			    </div>
 			  </div>
-			  <div class="col-sm-6" style="margin-top: 40px">
+			  <div class="col-md-6" style="margin-top: 40px">
 			    <div class="card">
 			      <div class="card-body">
 			        <h4 class="card-title">Cadastro de  Categoria</h4>

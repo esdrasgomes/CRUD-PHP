@@ -45,8 +45,8 @@
 			</center>
 			<form action="index1.php" method="post">
 				<div class="form-group">
-					<label>Usuário:</label>
-					<input type="text" name="usuario" class="form-control" placeholder="Digite seu usuário" autocomplete="off" required="">
+					<label>E-mail:</label>
+					<input type="text" name="usuario" class="form-control" placeholder="Digite seu e-mail" autocomplete="off" required="">
 				</div>
 				<div class="form-group">
 					<label class="senha">Senha:</label>
