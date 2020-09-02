@@ -90,14 +90,15 @@
 			<div class="row" style="margin-top: 10px">
 
 			
-			<div class="container" style="margin-top: 10px;">
+			<div class="container" style="">
 			<!-- <div style="text-align: right;">
 				<a href="main.php" role="button" class="btn btn-info btn-sm" style="font-weight: bold;">Voltar!</a>
 			</div> -->
 			<!-- <h3>Fornecedores Cadastrados</h3> -->
 			<br>
-			<table class="table table-hover">
-			  	<thead>
+			<table class="table table-striped table-sm">
+			<caption>Fornecedores Atuais</caption>
+			  	<thead style="background-color: #16222A; color: #ffffff;">
 				    <tr>
 				    	<th scope="col">Nome Fornecedor</th>
 						<th scope="col">Ação</th>

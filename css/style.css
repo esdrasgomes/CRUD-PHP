@@ -10,6 +10,7 @@ html,body {
 }
 body {
 	overflow-x: hidden;
+	background-color: #eee;
 }
 
 /*Pagina de login */
@@ -81,7 +82,7 @@ header {
 	left: 280px;
 	width: calc(100% - 280px);
 	padding: 5px 0;
-	background-color: #78909c;
+	background-color: #16222A;
 }
 .loggout {
 	float: right;
@@ -115,7 +116,7 @@ div.menu {
 	position: fixed;
 	left: 0;
 	top: 0;
-	background-color:#455a64;
+	background-color:#16222A;
 	float: left;
 	width: 280px;
 }
@@ -133,7 +134,7 @@ div.box-usuario {
 .imagem-usuario {
 	position: relative;
 	display: inline-block;
-	border:2px solid #2F3D42;
+	border:2px solid #25373a;
 	border-radius: 50%;
 	width: 120px;
 	height: 120px;
@@ -185,11 +186,16 @@ div.box-usuario {
 .right {
 	float: right;
 }
+
+/* START MAIN - CONTENT DARK */
+
+
 .content {
 	width: calc(100% - 280px);
 	position: relative;
 	left: 280px;
 	padding: 10px;
+	background-color: #eee;
 }
 
 .box-content {
@@ -201,6 +207,26 @@ div.box-usuario {
 .container {
 	margin-bottom: 20px;
 }
+.container h2 {
+	color: #222;
+}
+.card {
+	background-color: #c5c5c5;
+	border: 1px solid #aaa;
+}
+.card h4 {
+	color: #111;
+}
+.card p {
+	color: #222;
+}
+
+
+/* FIM MAIN - CONTENT */
+
+/* START MAIN - CONTENT LIGHT */
+
+/* FIM MAIN - CONTENT LIGHT */
 
 /* Box Metricas */
 .box-content h2 {
@@ -241,7 +267,7 @@ div.box-usuario {
 	text-align: left;
 	font-weight: 400;
 	font-size: 16px;
-	background-color: #2F3D42;
+	background-color: #0d1013;
 	color: white;
 	padding: 5px 10px;
 	font-weight: bold;
@@ -256,6 +282,9 @@ div.box-usuario {
 	color: white;
 	border-bottom: 1px solid #2F3D42;
 	font-weight: 400;
+}
+.itens-menu a:hover {
+	background-color: #263c49;
 }
 
 /* Tabela Responsiva */

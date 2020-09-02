@@ -83,8 +83,9 @@
 			</div>
 			<h3>Produtos Cadastrados</h3>
 			<br> -->
-			<table class="table table-hover table-responsive">
-			  	<thead>
+			<table class="table table-striped table-sm table-responsive">
+			<caption>Estoque Atual</caption>
+			  	<thead class="" style="background-color: #16222A; color: #ffffff;">
 				    <tr>
 				    	<th scope="col">Código</th>
 					    <th scope="col">Descrição</th>

@@ -19,6 +19,7 @@
 			}
 			.container {
 				margin-top: 10px;
+				
 			}
 			.container h3 {
 				text-align: center;
@@ -98,7 +99,7 @@
 			<div class="row" style="">
 
 			
-			<div class="container" id="tamanhoContainer" style="background-color: #ccc; padding: 30px 40px">
+			<div class="container" id="tamanhoContainer" style="background-color: #c5c5c5; border: 1px solid #aaa; padding: 30px 40px">
 			
 			<h4 style="text-align: center;">Preencha as informações abaixo:</h4><hr>
 			<form action="inserir_produto.php" method="POST" style="margin-top: 30px">

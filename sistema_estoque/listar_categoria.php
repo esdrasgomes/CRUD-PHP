@@ -86,12 +86,13 @@
 
 			
 			
-			<div class="container" style="margin-top: 10px; width: ">
+			<div class="container" style="">
 			
 			<!-- <h3>Categorias Cadastradas</h3> -->
 			<br>
-			<table class="table table-hover">
-			  	<thead>
+			<table class="table table-striped table-sm">
+			<caption>Categorias Atuais</caption>
+			  	<thead style="background-color: #16222A; color: #ffffff;">
 				    <tr>
 				    	<th scope="col">Nome Categoria</th>
 						<th scope="col">Ação</th>
