@@ -1,2 +1,2 @@
-# sistema-de-estoque
- Um sistema para controle de estoque
+# CRUD-PHP
+CRUD feito com PHP
