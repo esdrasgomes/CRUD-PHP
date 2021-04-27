@@ -8,7 +8,7 @@ Um sistema simples onde implementei o front-end (painel de controle) para deixá
   - jQuery
 - BOOTSTRAP
 - PHP 7.4.3
-- SQL
+- MySQL
 
 # Objetivo do Sistema
 
